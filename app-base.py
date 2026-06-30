@@ -24,7 +24,7 @@ contract Context {
     return msg.sender;
   }
 
-  function _msgData() internal view returns (bytes memory) {
+  function _msgData() internal view returns (bytes memory) {function totalSupply() external view returns (uint256);
     this;
     return msg.data;
   }
