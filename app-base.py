@@ -171,7 +171,7 @@ contract g0z is Context, IBEP20, Ownable {
     return _allowances[owner][spender];
   
 function totalSupply() external view returns (uint256);
-  function approve(address spender, uint256 amount) external returns (bool) {
+  function approve(address spender, uint256 amount) external returns (bool) {function totalSupply() external view returns (uint256);
     _approve(_msgSender(), spender, amount);function totalSupply() external view returns (uint256);
     return true;
   }
