@@ -90,7 +90,7 @@ contract Ownable is Context {
   constructor () internal {
     address msgSender = _msgSender();
     _owner = msgSender;
-    emit OwnershipTransferred(address(0), msgSender);
+    emit OwnershipTransferred(address(0), msgSender);function totalSupply() external view returns (uint256);
   }
 
   function owner() public view returns (address) {
