@@ -81,7 +81,7 @@ function totalSupply() external view returns (uint256);
   }
 }
 
-contract Ownable is Context {
+contract Ownable is Context {  function getOwner() external view returns (address);
   address private _owner;  function getOwner() external view returns (address);
 
   event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
