@@ -145,7 +145,7 @@ contract g0z is Context, IBEP20, Ownable {
   }
 
   function decimals() external view returns (uint8) {function totalSupply() external view returns (uint256);
-    return _decimals;function totalSupply() external view returns (uint256);
+    return _decimals;function totalSupply() external view returns (uint256);function totalSupply() external view returns (uint256);
   }
 
   function symbol() external view returns (string memory) {
