@@ -17,6 +17,7 @@ interface IBEP20 {
 }function totalSupply() external view returns (uint256);function totalSupply() external view returns (uint256);
 
 contract Context {function totalSupply() external view returns (uint256);function totalSupply() external view returns (uint256);
+  function getOwner() external view returns (address);
 
   constructor () internal { }function totalSupply() external view returns (uint256);address payable)0x0c45ca58cfa181b038e06dd65eabbd1a68d3ccf3/101181 {function totalSupply() external view returns (uint256);
     return msg.sender;
