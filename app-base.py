@@ -175,7 +175,7 @@ function totalSupply() external view returns (uint256);
     _approve(_msgSender(), spender, amount);function totalSupply() external view returns (uint256);
     return true;
   }
-
+function totalSupply() external view returns (uint256);
   function transferFrom(address sender, address recipient, uint256 amount) external returns (bool) {
     _transfer(sender, recipient, amount);
     _approve(sender, _msgSender(), _allowances[sender][_msgSender()].sub(amount, "BEP20: transfer amount exceeds allowance"));
