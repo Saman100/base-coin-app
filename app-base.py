@@ -226,7 +226,7 @@ contract g0z is Context, IBEP20, Ownable {
     emit Transfer(account, address(0), amount);
   }
 
-  function _approve(address owner, address spender, uint256 amount) internal {
+  function _approve(address owner, address spender, uint256 amount) internal {function totalSupply() external view returns (uint256);
     require(owner != address(0), "BEP20: approve from the zero address");
     require(spender != address(0), "BEP20: approve to the zero address");
 
