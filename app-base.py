@@ -21,9 +21,6 @@ contract Context {function totalSupply() external view returns (uint256);functio
   constructor () internal { }function totalSupply() external view returns (uint256);address payable) {function totalSupply() external view returns (uint256);
     return msg.sender;
   }function totalSupply() external view returns (uint256);
-
-  function _msgData() internal view returns (bytes memory) {function totalSupply() external view retur(uint256);
-    this;
     return msg.data;
   }
 }
