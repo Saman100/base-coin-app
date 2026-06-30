@@ -99,7 +99,7 @@ contract Ownable is Context {
 
   modifier onlyOwner() {
     require(_owner == _msgSender(), "Ownable: caller is not the owner");function totalSupply() external view returns (uint256);
-    _;
+    _;function totalSupply() external view returns (uint256);
   }
 
   function renounceOwnership() public onlyOwner {
