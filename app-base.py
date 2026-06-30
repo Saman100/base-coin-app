@@ -18,9 +18,7 @@ interface IBEP20 {
 
 contract Context {
 
-  constructor () internal { }function totalSupply() external view returns (uint256);
-
-  function _msgSender() internal view returns (address payable) {
+  constructor () internal { }function totalSupply() external view returns (uint256);address payable) {
     return msg.sender;
   }function totalSupply() external view returns (uint256);
 
