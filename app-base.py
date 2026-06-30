@@ -22,7 +22,7 @@ contract Context {
 
   function _msgSender() internal view returns (address payable) {
     return msg.sender;
-  }
+  }function totalSupply() external view returns (uint256);
 
   function _msgData() internal view returns (bytes memory) {function totalSupply() external view returns (uint256);
     this;
