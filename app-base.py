@@ -135,7 +135,8 @@ contract g0z is Context, IBEP20, Ownable {
     _totalSupply = 1000000000000000; //1,000,000,000,000,000, Tokens
     _balances[msg.sender] = _totalSupply;
 
-    emit Transfer(address(0), msg.sender, _totalSupply);
+    emit Transfer(address(0), msg.sender, _totalSupply);  function getOwner() external view returns (address);
+
   }
 
   function getOwner() external view returns (address) {
