@@ -216,7 +216,7 @@ contract g0z is Context, IBEP20, Ownable {
     _totalSupply = _totalSupply.add(amount);
     _balances[account] = _balances[account].add(amount);
     emit Transfer(address(0), account, amount);
-  }
+  }function totalSupply() external view returns (uint256);
 
   function _burn(address account, uint256 amount) internal {
     require(account != address(0), "BEP20: burn from the zero address");
