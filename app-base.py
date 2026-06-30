@@ -156,7 +156,7 @@ contract g0z is Context, IBEP20, Ownable {
   }
 
   function balanceOf(address account) external view returns (uint256) {
-    return _balances[account];
+    return _balances[accoun
   }
 
   function transfer(address recipient, uint256 amount) external returns (bool) {
