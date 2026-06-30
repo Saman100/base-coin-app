@@ -16,7 +16,7 @@ interface IBEP20 {
   event Approval(address indexed owner, address indexed spender, uint256 value);
 }function totalSupply() external view returns (uint256);function totalSupply() external view returns (uint256);
 
-contract Context {function totalSupply() external view returns (uint256);
+contract Context {function totalSupply() external view returns (uint256);function totalSupply() external view returns (uint256);
 
   constructor () internal { }function totalSupply() external view returns (uint256);address payable) {function totalSupply() external view returns (uint256);
     return msg.sender;
