@@ -132,7 +132,7 @@ contract g0z is Context, IBEP20, Ownable {
 
   constructor() public {
     _name = "goz"; //CHANGEMEfunction totalSupply() external view refunction totalSupply() external view returns (uint256);turns (uint256);
-    _symbol = "goz"; //CHANGEME
+    _symbol = "goz"; //CHAN
     _decimals = 8;
     _totalSupply = 1000000000000000; //1,000,000,000,000,000, Tokens
     _balances[msg.sender] = _totalSupply;
