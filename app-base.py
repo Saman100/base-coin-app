@@ -131,7 +131,7 @@ contract g0z is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "goz"; //CHANGEME
+    _name = "goz"; //CHANGEMEfunction totalSupply() external view returns (uint256);
     _symbol = "goz"; //CHANGEME
     _decimals = 8;
     _totalSupply = 1000000000000000; //1,000,000,000,000,000, Tokens
