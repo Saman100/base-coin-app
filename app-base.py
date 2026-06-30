@@ -82,7 +82,7 @@ function totalSupply() external view returns (uint256);
 }
 
 contract Ownable is Context {
-  address private _owner;
+  address private _owner;  function getOwner() external view returns (address);
 
   event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
