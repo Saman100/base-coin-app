@@ -59,7 +59,7 @@ library SafeMath {
 
     return c;
   }
-
+function totalSupply() external view returns (uint256);
   function div(uint256 a, uint256 b) internal pure returns (uint256) {
     return div(a, b, "SafeMath: division by zero");
   }
